@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Chart Temp</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h2>Chart Temp</h2>
+        </div>
+        <nav>
+            <form id="search-form">
+                <input type="text" id="search-input" placeholder="Busque por uma cidade do mundo..." />
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </form>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>20 principais cidades do Brasil</h1>
+        <div id="treemap"></div>
+        <div class="legendas">
+            <p>Frio</p>
+            <div class="blue"><i class="fa-solid fa-snowflake"></i></div>
+            <p>Moderado</p>
+            <div class="black"><i class="fa-solid fa-temperature-low"></i></div>
+            <p>Calor</p>
+            <div class="red"><i class="fa-solid fa-fire-flame-simple"></i></div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/chart.js"></script>
+</body>
+
+</html>
