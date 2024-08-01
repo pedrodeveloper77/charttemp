@@ -14,11 +14,20 @@
     justify-content: center;
     align-items: center;
     background: rgb(255, 255, 255);
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .container h1 {
     padding: 20px;
     color: #141414;
+}
+
+.title-info h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
 
 .legendas {
@@ -122,12 +131,12 @@ nav {
 #treemap {
     display: flex;
     flex-direction: row;
-    gap: 1%;
+    gap: 0%;
     border: 1px solid rgba(207, 207, 207, 0.329);
     background: #7a8e9980;
     /* padding: 20px; */
-    width: 70%;
-    height: 60%;
+    width: 90%;
+    height: 90%;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
