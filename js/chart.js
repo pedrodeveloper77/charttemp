@@ -49,19 +49,11 @@ function createSquare(city, temp) {
     // Nestas condicionais ele verifica se a temperatura é satisfeita e aplica os seus atributos
     if (temp < 15) {
         size = 150;
-        square.style.backgroundColor = '#ff0000';
+        square.style.backgroundColor = 'blue';
         square.style.color = 'white';
     } else if (temp <= 20) {
         size = 250;
-        square.style.backgroundColor = '#ef6e6e';
-        square.style.color = 'white';
-    } else if (temp >= 22 && temp <= 24) {
-        size = 250;
-        square.style.backgroundColor = '#2ef732';
-        square.style.color = 'white';
-    } else if (temp >= 25) {
-        size = 250;
-        square.style.backgroundColor = '#a8f4b0';
+        square.style.backgroundColor = 'black';
         square.style.color = 'white';
     } else {
         size = 300;
